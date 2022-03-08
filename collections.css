@@ -1,0 +1,58 @@
+.collections{
+    width: 100%;
+    height: 950px;
+    margin-top: 150px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.row{
+    width: 100%;
+    margin-top: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.word_co{
+    width: 248px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+}
+.collect{
+    margin-right: 95px;
+    margin-left: 83px;
+    display: flex;
+
+}
+.photo_co{
+    width: 370px;
+    height: 445px;
+}
+
+figcaption{
+    width: 420px;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.none{
+    color: black;
+    line-height: 20px;
+}
+.lr{
+    position: center;
+    height: 50%;
+
+}
+span{
+    font-weight: 600;
+    font-size: 17px;
+}

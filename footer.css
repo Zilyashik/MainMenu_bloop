@@ -1,0 +1,118 @@
+body{
+    height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainmain{
+    flex: 1 1 auto;
+}
+footer{
+    width: 100%;
+    height: 184px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 64px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s linear; /* Время изменения */
+}
+
+.navbar-logo_footer:hover{
+    transition: 0.5s linear;
+    color: #fff;
+    background: black;
+}
+
+.menu_footer{
+    text-decoration: none;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mf{
+    width: 95px;
+    height: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    cursor: pointer;
+}
+
+.mf:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.mf:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.s_network {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vk{
+    height: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration: none;
+    color: #000;
+}
+
+.insta{
+    height: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration: none;
+    color: #000;
+}
