@@ -5,6 +5,7 @@ ___
 
 ###Main
 
+some text
 ___
 
 ###Footer
